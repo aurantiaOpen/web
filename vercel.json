@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/arancialive-proxy/:path*", "destination": "/api/proxy?path=:path*" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
